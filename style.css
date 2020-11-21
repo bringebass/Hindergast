@@ -54,8 +54,6 @@
     color: #00273d;
     font-size: 2rem;
     margin-bottom: 10px;
-    
-   
 }
 
 .undertekst {
@@ -64,52 +62,7 @@
     color: grey;
 }
 
-.code1 {
-    margin-left: 90px;
-    margin-top: 50px;
-    display: flex; 
-}
 
-.cody {
-    font-size: 1.5rem;
-    color: blue;
-}
-
-.cody2 {
-    font-size: 1rem;
-    margin-top: 6px;
-    margin-left: 10px;
-    font-weight: bold;
-    color: black;
-}
-
-.jam {
-    font-size: 1.5rem;
-    color: blue;
-    margin-top: -35px;
-}
-
-.jam2 {
-    font-size: 1rem;
-    margin-top: -29px;
-    margin-left: 10px;
-    font-weight: bold;
-    color: black;
-}
-
-.jam3 {
-    font-size: 1.5rem;
-    color: blue;
-    margin-top: -45px;
-}
-
-.jam4 {
-    font-size: 1rem;
-    margin-top: -40px;
-    margin-left: 10px;
-    font-weight: bold;
-    color: black;
-}
 
 /* Colors */
 
