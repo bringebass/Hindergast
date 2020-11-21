@@ -107,6 +107,8 @@
     color: gold; 
 }
 
+.test {}
+
 .grå {
     color: grey;
 }
@@ -119,6 +121,8 @@
     display: flex;
     justify-content: space-between;
     border-bottom: solid lightgray 1px;
+    font-weight: bold;
+    
     
   
 }
