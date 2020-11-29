@@ -178,9 +178,13 @@
     -webkit-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
     -moz-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
     box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
-    
     position: relative;
 }
+
+.primero {
+    border: solid rgb(49, 70, 147) 3px;
+}
+
 
 /* Chambers in boxes */
 
@@ -208,11 +212,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: solid 1px lightgray;
 }
 
 .chamber-two {
     grid-area: two;
     align-items: center;
+    border-right: solid 1px lightgray;
 }
 
 .chamber-three {
@@ -222,6 +228,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    border-right: solid 1px lightgray;
 }
 
 .chamber-four {
@@ -292,12 +299,19 @@
     width: 50px;
     height: 50px;
     border-bottom-right-radius: 20px;
-    background-color: rgb(22, 33, 74);
+    background-color:  rgb(22, 33, 74) ;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-weight: bolder;
+}
+
+.rango {
+    background-color: white;
+    color: black;
+    border-bottom: solid 1px lightgray;
+    border-right: solid 1px lightgray;;
 }
 
 
@@ -306,7 +320,6 @@
 .keyfacts {
     font-weight: bold;
     margin-top: 30px;
-    text-decoration: underline;
     color: rgb(22, 33, 74);
 }
 
@@ -362,7 +375,6 @@
     position: absolute;
     top: 30px;
     font-weight: bold;
-    text-decoration: underline;
     color: rgb(22, 33, 74);
 }
 
@@ -421,7 +433,20 @@
     cursor: pointer;  
 }
 
+/* Second box */
 
+.zero{
+    background-color: white;
+    border-bottom: solid 1px lightgray;
+   }
+   
+.underline {
+    text-decoration: underline;
+}
+
+.bino {
+    margin-left: 5px;
+}
 
 /* Toggle classes */
     
