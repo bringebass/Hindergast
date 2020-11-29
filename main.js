@@ -10,6 +10,7 @@ const showDropdownFourthBox = document.querySelector('.showDropdownFourthBox');
 const DropdownFourthBox = document.querySelector('.dropdown-fourth-box');
 const showDropdownFiftBox = document.querySelector('.showDropdownFiftBox');
 const DropdownFiftBox = document.querySelector('.dropdown-fift-box');
+const template = document.querySelector('.template');
 
 
 const arrow1 = document.querySelector('.arrow1');
@@ -19,6 +20,16 @@ const arrow4 = document.querySelector('.arrow4');
 const arrow5 = document.querySelector('.arrow5');
 
 
+
+template.addEventListener('click', () => {
+    template.style.transform = "scale(6)";
+}
+)
+
+template.addEventListener('mouseout', () => {
+    template.style.transform = "scale(1)"
+}
+)
 
 
 /* Show dropdowns */
