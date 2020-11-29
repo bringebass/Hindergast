@@ -7,56 +7,66 @@
 
 /* banner */
 
-.main-headline {
-    margin-top: 100px;
-    margin-left: 60px;
-    font-size: 2.2rem;
-}
-
-.under-main-headline {
-    margin-left: 120px;
-    margin-top: 5px;
+#Layer_1 {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    width: 35%;
+    z-index: -1;
 }
 
 .top-bilde {
     width: 500px;
 }
 
+.flexbox-dos {
+    width: 500px;
+}
+
 .flex-container-top {
-    display: flex;
-    width: 1000px;
+    display: grid;
+    width: 1180px;
     margin: 0 auto;
-    justify-content: space-between;   
+    grid-template-columns: auto 520px;
 }
 
 .flex-box-uno {
-width: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .check-text-container {
     display: flex;
-}
-
-.check-container {
-    display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-left: 100px;
-}
-
-.text-container {
-    margin-top: 50px;
-    margin-left: 10px;
-}
-
-.text {
-    margin-top: 15.5px;
-    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 150px;
 }
 
 .check-circle {
+    font-size: 1.3rem;
+}
+
+.text {
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.number-one, .number-two, .number-three, .number-four {
+    display: flex;
     margin-top: 10px;
-    font-size: 1.5rem;
+}
+
+.main-headline {
+    font-size: 2.7rem;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+.under-main-headline {
+    margin-left: 90px;
+    margin-top: 5px;
 }
 
 /* poster på siden */
@@ -161,20 +171,35 @@ width: 500px;
 .first-box {
     width: auto;
     display: grid;
-    grid-template-areas: "one two three four";
+    grid-template-areas: "zero zero zero zero"
+                         "one two three four";
     height: auto;
     margin-top: 30px;
-    border: solid black 1px;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
+    box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
     
     position: relative;
 }
 
 /* Chambers in boxes */
 
+
 .chamber-one, .chamber-two, .chamber-three, .chamber-four {
     width: 250px;
     height: 300px;
     display: flex;
+}
+
+.chamber-zero {
+    width: 100%;
+    grid-area: zero;
+    height: 50px;
+    background-color: rgb(246, 246, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .chamber-one {
@@ -231,6 +256,21 @@ width: 500px;
 /* Content in chamber one */
 
 
+.rangering {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(22, 33, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
 
 /* Content in chamber two */
 
@@ -257,7 +297,7 @@ width: 500px;
 .buttons-chamber4 {
     text-decoration: none;
     color: white;
-    background-color: #ff3547;
+    background-color: rgb(255, 94, 0);
     padding: 10px;
     width: 200px;
     height: 50px;
@@ -340,45 +380,3 @@ width: 500px;
 
 /* media quieries */
 
-@media only screen and (max-width: 1021px) {
-    .first-box, .dropdown-first-box {
-        grid-template-areas: "one two"
-                             "three four";
-    }
-
-    .chamber-one {
-        border-bottom: 1px solid lightgray;
-        border-right: 1px solid lightgray;
-    }
-
-    .chamber-two {
-        border-bottom: 1px solid lightgray;
-    }
-
-    .chamber-three {
-        border-right: 1px solid lightgray;
-    }
-
-  }
-
-  @media only screen and (max-width: 530px) {
-    .first-box, .dropdown-first-box {
-        grid-template-areas: "one"
-                             "two"
-                             "three"
-                             "four";
-    
-        width: 80%;
-        max-width: 380px;
-    }
-
-    .chamber-one, .chamber-two, .chamber-three {
-        border-bottom: solid lightgrey 1px;
-        width: auto;
-    }
-
-    .chamber-four {
-        width: auto;
-    }
-
-  }
