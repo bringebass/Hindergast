@@ -172,6 +172,7 @@
     width: auto;
     display: grid;
     grid-template-areas: 
+                         "test test test test"
                          "one two three four"
                          "zero zero zero zero";
     height: auto;
@@ -180,13 +181,11 @@
     -moz-box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
     box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
     position: relative;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .primero {
-    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
--moz-box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
-box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
+    
 }
 
 /* second box */
@@ -208,14 +207,29 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
     width: 100%;
     grid-area: zero;
     height: 50px;
-    background-color: rgb(246, 246, 255);
+    background-color: rgb(22, 33, 74);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 5;
+}
 
+.test {
+    position: relative;
+    width: 100%;
+    grid-area: test;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px lightgray solid;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .chamber-one {
@@ -248,6 +262,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
     grid-area: four;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -275,7 +290,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
 /* Content in chamber one */
 
 .liten-margo {
-    margin-top: 10px;
+    
     font-weight: bold;
     cursor: pointer;
     text-decoration: underline;
@@ -298,12 +313,12 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
 
 .our-rating {
     font-weight: bold;
-    color: rgb(22, 33, 74);
+    color: white;
 }
 
 .our-rating2 {
     font-weight: bold;
-    color: rgb(22, 33, 74);
+    color: white;
     margin-left: 10px;
 }
 
@@ -314,13 +329,13 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
     width: 50px;
     height: 50px;
     border-bottom-right-radius: 20px;
-    background-color:  rgb(30, 57, 152) ;
+    background-color:  rgb(22, 33, 74) ;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-weight: bolder;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 10px;
     z-index: 1;   
 }
 
@@ -390,23 +405,9 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
 
 /* content in fourth chamber */
 
-.margin-bottom {
-    margin-bottom: 20px;
-    margin-top: 45px;
-    margin-left: 35px;
-    font-weight: bold;
-    color: rgb(30, 57, 152);
-    width: 140px;
-}
 
-.bro {
-    margin-bottom: 20px;
-    margin-top: 45px;
-    margin-left: 35px;
-    font-weight: bold;
-    width: 140px;
-    color: rgb(22, 33, 74);
-}
+
+
 
 .arrow1 {
     font-size: 20px;
@@ -450,11 +451,13 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
 
 .zero{
    
-    background-color: white;
+    background-color: rgb(248, 248, 248) ;
     border-bottom: solid 1px lightgray;
- 
-    
    }
+
+.cj {
+    color: black;
+}
    
 .underline {
     text-decoration: underline;
@@ -490,9 +493,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,68,255,1);
 }
 
 .img2 {
-    -webkit-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
-    -moz-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
-    box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
+
 }
 
 .skrift-over-bilde {
