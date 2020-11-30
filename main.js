@@ -21,15 +21,7 @@ const arrow5 = document.querySelector('.arrow5');
 
 
 
-template.addEventListener('click', () => {
-    template.style.transform = "scale(6)";
-}
-)
 
-template.addEventListener('mouseout', () => {
-    template.style.transform = "scale(1)"
-}
-)
 
 
 /* Show dropdowns */
