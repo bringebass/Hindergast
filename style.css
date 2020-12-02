@@ -148,8 +148,11 @@
 
 .textus {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(22, 33, 74);
 }
 
 
@@ -541,7 +544,7 @@
 .buttons-chamber4 {
     text-decoration: none;
     color: white;
-    background-color: #ff3547;
+    background-color: #f37a33;
     padding: 10px;
     width: 200px;
     height: 50px;
@@ -617,3 +620,41 @@
 
 /* media quieries */
 
+@media only screen and (max-width: 1656px) {
+    .flex-container-top {
+        margin-left: 100px;
+    }
+
+    .wrapper-around-main-boxes {
+        align-items: flex-start;
+    }
+
+    .first-box {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    
+  .sidething {
+      display: none;
+  }  
+    
+    
+    
+    
+    
+/*
+
+    .first-box {
+    grid-template-areas: "test test"
+                         "one four"
+                         "three two"
+                         "zero zero";
+    }
+
+    .first-box {
+        margin-left: 300px;
+    }
+
+}
