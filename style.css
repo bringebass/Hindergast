@@ -64,7 +64,11 @@
 
 .main-headline {
     font-size: 3.5rem;
-    
+    color: rgb(22, 33, 74); 
+}
+
+.under-main-headline {
+    color: rgb(22, 33, 74);
 }
 
 .flex-in-flex1 {
@@ -90,13 +94,13 @@
     align-items: center;
 }
 
-/* poster på siden */
+/* Aside */
 
 .flexcontainer {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 250px;
+    top: 240px;
     right: 0px; 
 }
 
@@ -106,8 +110,7 @@
     height: auto;
     width: 300px;
     background-color: white;
-    margin-right: 10px;
-    
+    margin-right: 10px; 
 }
 
 .item1 {
@@ -115,21 +118,73 @@
     align-items: center;
     width: 300px;
     height: 50px;
-    border-bottom: solid lightgray 1px;
+    border: solid lightgray 1px;
     color: rgb(78, 78, 78);
     text-align: center;
 }
 
-.jon:hover {
-    color: blue;
+.bror {
+    border-top-left-radius: 10px;
 }
+
+.søster {
+    border-bottom-left-radius: 10px;
+}
+
+.jon {
+    margin-left: 10px;
+}
+
+.sidething {
+    position: fixed;
+    right: 10px;
+    top: 500px;
+    width: 300px;
+    height: 350px;
+    border: solid rgb(22, 33, 74) 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.textus {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+
 
 .Latestpost:hover {
     cursor: pointer;
 }
 
 .jon:hover {
-    margin-left: 3px;
+    margin-left: 13px;
+    color: blue;
+}
+
+.thing {
+    height: 50px;
+    width: 2px;
+    background-color: white;
+}
+
+.image-boxus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-wix {
+    width: 200px;
+    height: 40px;
+    background-color: #246ee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*test*/
@@ -169,19 +224,29 @@
 
 .header {
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    border-bottom: 1px solid lightgray;
+    border-bottom: solid lightgray 1px;
+   
 }
 
 .logobox-header {
-    width: 100px;
+    width: auto;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+   
+}
+
+.logo {
+    width: 221px;
+
 }
 
 .navigation-wrapper {
@@ -195,6 +260,7 @@
 .header-navigation-box {
     display: flex;
     list-style: none;
+    margin-top: 20px;
 }
 
 .header-navigation-links {
@@ -538,47 +604,15 @@
 
 /* Picture under main boxes */
 
-.flexify {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    transition: 1s;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-.image {
-    width: 700px;
-}
 
 
-.skrift-over-bilde {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 0px;
-    background-color: white;
-    color: gray;
-    padding: 10px;
-    border: solid 1px;
-}
-
-#grad1 {
-    background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-}
 
 .section1 {
     display: flex;
     width: 100%;
     height: 500px;
     background-color: #E4EFFF;
+    margin-top: 300px;
 }
 
 /* media quieries */
