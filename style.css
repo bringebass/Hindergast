@@ -144,6 +144,7 @@
     border: solid rgb(22, 33, 74) 1px;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .textus {
@@ -620,9 +621,9 @@
 
 /* media quieries */
 
-@media only screen and (max-width: 1656px) {
+@media only screen and (max-width: 1660px) {
     .flex-container-top {
-        margin-left: 100px;
+        margin-left: 200px;
     }
 
     .wrapper-around-main-boxes {
@@ -630,22 +631,56 @@
     }
 
     .first-box {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1538px) {
+    .flex-container-top {
+        margin-left: 100px;
+    }
+
+    .first-box {
         margin-left: 100px;
     }
 }
 
-@media only screen and (max-width: 1430px) {
-    
-  .sidething {
-      display: none;
+@media only screen and (max-width: 1435px) {
+    .flex-container-top {
+        margin-left: 50px;
+    }
+
+    .first-box {
+        margin-left: 50px;
+    }
+  
   }  
     
-    
-    
-    
-    
-/*
+  @media only screen and (max-width: 1435px) {
+    .sidething {
+        display: none;
+    }
 
+    .Latestpost {
+        display: none;
+    }
+
+    .wrapper-around-main-boxes {
+        align-items: center;
+    }
+
+    .first-box {
+        margin-left: 0px;
+    }
+
+    .flex-container-top {
+        margin: 0 auto;
+    }
+  
+  }    
+
+  @media only screen and (max-width: 1035px) {
+    
     .first-box {
     grid-template-areas: "test test"
                          "one four"
@@ -654,7 +689,26 @@
     }
 
     .first-box {
-        margin-left: 300px;
+        width: 80%;
+        margin-left: 0px;
     }
 
+    .chamber-one, .chamber-two, .chamber-three, .chamber-four {
+        width: auto;
+        border: solid lightgray 1px;
+    }
+
+    .flexbox-three {
+        display: none;
+    }
+
+    .flexbox-dos {
+        margin: 0 auto;
+    }
+
+    .flex-container-top {
+    grid-template-areas: "one"
+                         "two"
+                          
+    }
 }
