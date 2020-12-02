@@ -45,13 +45,16 @@
 .flex-container-top {
     display: grid;
     width: 1000px;
-    
-    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: 500 500px;
     grid-template-rows: 150px 400px;
     grid-template-areas: "one one"
                          "two three"           ;
 }
+
+
 
 .flexbox-uno {
     width: auto;
@@ -64,7 +67,7 @@
 
 .main-headline {
     font-size: 3.5rem;
-    color: rgb(22, 33, 74); 
+    color: rgb(22, 33, 74);
 }
 
 .under-main-headline {
@@ -141,7 +144,7 @@
     top: 500px;
     width: 300px;
     height: 350px;
-    border: solid rgb(22, 33, 74) 1px;
+    border: solid lightgray 1px;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -154,6 +157,7 @@
     width: 100%;
     font-weight: bold;
     color: rgb(22, 33, 74);
+    text-decoration: underline;
 }
 
 
@@ -233,7 +237,10 @@
     justify-content: space-between;
     font-weight: bold;
     border-bottom: solid lightgray 1px;
-   
+    position: fixed;
+    background-color: white;
+    margin-top: -70px;
+    z-index: 1000;
 }
 
 .logobox-header {
@@ -242,16 +249,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 10px;
     
    
 }
 
-.logo {
-    width: 221px;
 
-}
 
 .navigation-wrapper {
     width: auto;
@@ -674,18 +678,25 @@
     }
 
     .flex-container-top {
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
   
   }    
 
   @media only screen and (max-width: 1035px) {
     
+   
+
     .first-box {
     grid-template-areas: "test test"
-                         "one four"
-                         "three two"
+                         "one two"
+                         "three four"
                          "zero zero";
+    }
+
+    #Layer_1 {
+        width: 100%;
     }
 
     .first-box {
@@ -707,8 +718,14 @@
     }
 
     .flex-container-top {
-    grid-template-areas: "one"
-                         "two"
-                          
+        grid-template-areas: "one"
+                         "two";
+        width: auto;
     }
+
+    .main-headline {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
 }
