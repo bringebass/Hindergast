@@ -244,6 +244,10 @@
     z-index: 1000;
 }
 
+.one {
+    margin-top: 0px;
+}
+
 .logobox-header {
     width: auto;
     height: 50px;
@@ -623,6 +627,13 @@
     margin-top: 300px;
 }
 
+/* wix-review */
+
+
+
+
+
+
 /* media quieries */
 
 @media only screen and (max-width: 1660px) {
@@ -810,8 +821,6 @@
     .header {
     margin-top: -100px;
     }
-
-    
 
     .main-headline {
         font-size: 35px;
