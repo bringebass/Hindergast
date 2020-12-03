@@ -104,7 +104,8 @@
     flex-direction: column;
     position: fixed;
     top: 240px;
-    right: 0px; 
+    right: 0px;
+    border-top-left-radius: 10;
 }
 
 .Latestpost {
@@ -112,7 +113,7 @@
     flex-direction: column;
     height: auto;
     width: 300px;
-    background-color: white;
+    background-color: red;
     margin-right: 10px; 
 }
 
@@ -162,7 +163,7 @@
 
 
 
-.Latestpost:hover {
+.flexcontainer:hover {
     cursor: pointer;
 }
 
@@ -194,6 +195,10 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.button-wix:hover {
+    background-color: #a1b8de;
 }
 
 /*test*/
