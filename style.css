@@ -102,37 +102,33 @@
 .flexcontainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: fixed;
+    width: 300px;
     top: 240px;
-    right: 0px;
-    border-top-left-radius: 10;
+    right: 10px;
 }
 
-.Latestpost {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 300px;
-    background-color: red;
-    margin-right: 10px; 
-}
+
 
 .item1 {
     display: flex;
     align-items: center;
     width: 300px;
-    height: 50px;
-    border: solid lightgray 1px;
+    height: auto;
+    border-left: solid lightgray 1px;
+    border-top: solid lightgray 1px;
+    border-right: solid lightgray 1px;
     color: rgb(78, 78, 78);
-    text-align: center;
+    text-align: center;    
 }
 
-.bror {
-    border-top-left-radius: 10px;
-}
+
 
 .søster {
-    border-bottom-left-radius: 10px;
+    
+    border-bottom: lightgray solid 2px;
 }
 
 .jon {
@@ -142,10 +138,13 @@
 .sidething {
     position: fixed;
     right: 10px;
-    top: 500px;
+    top: 510px;
     width: 300px;
     height: 350px;
-    border: solid rgb(22, 33, 74) 1px;
+    border-left: solid lightgray 1px;
+    border-right: solid lightgray 1px;
+    border-top: solid lightgray 1px;
+    border-bottom: solid rgb(22, 33, 74) 10px;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -482,14 +481,13 @@
 
 .keyfacts-container {
     display: flex;
-    margin-top: 10px;
 }
 
 .symbol-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1px;
+    margin-top: 1.5px;
 }
 
 .margino {
@@ -549,11 +547,7 @@
 }
 
 
-.arrow1 {
-    font-size: 20px;
-    margin-left: 5px;
-    margin-top: 2px;
-}
+
 
 .buttons-chamber4 {
     text-decoration: none;
@@ -641,6 +635,9 @@
 
 /* media quieries */
 
+
+
+
 @media only screen and (max-width: 1660px) {
     .flex-container-top {
         margin-left: 200px;
@@ -674,8 +671,17 @@
         margin-left: 40px;
     }
   }  
+
+  @media only screen and (max-width: 1370px) {
+    .sidething, .flexcontainer, .item1 {
+        width: 230px;
+    }
+
+    .first-box {
+        margin-left: 30px;
+    }
     
-  @media only screen and (max-width: 1375px) {
+  @media only screen and (max-width: 1300px) {
     .sidething {
         display: none;
     }
@@ -689,7 +695,7 @@
     }
   
 
-    .Latestpost {
+    .flexcontainer {
         display: none;
     }
 
@@ -720,7 +726,7 @@
     }
 
     #Layer_1 {
-        width: 100%;
+        width: 80%;
     }
 
     .first-box {
@@ -768,6 +774,18 @@
         font-size: 15px;
     }
 
+    .chamber-one, .chamber-two, .chamber-three, .chamber-four {
+        height: 200px;
+    }
+
+    .showDropdownFirstBox {
+        bottom: 40px;
+    }
+
+    .keyfacts, .fill {
+        display: none;
+    }
+    
    .navigation-wrapper {
        display: none;
    }
@@ -783,11 +801,13 @@
         }
 
         .flex-container-top {
-            height: 170px;
+            height: auto;
         }
 
-        .flexbox-dos, .flex-in-flex1, .flex-in-flex2 {
-            display: none;  
+       
+
+        .flexbox-dos {
+            display: none;
         }
 
         .under-main-headline {
@@ -799,22 +819,25 @@
             display: none;
         }
 
-        .header {
-            height: 40px;
-        }
-
-        .logobox-header {
-            height: 30px;
-            margin-top: 5px;
-        }
-
         .logobox-header {
             font-size: 16px;
         }
 
         .main-headline {
-            font-size: 45px;
+            font-size: 35px;
             margin-top: 0px;
+        }
+
+        .size {
+            font-size: 30px;
+        }
+        
+        .wrapper-around-main-boxes {
+            margin-top: -400px;
+        }
+
+        .under-main-headline {
+            margin-top: 5px;
         }
 }
 
@@ -836,7 +859,10 @@
     }
 
     .wrapper-around-main-boxes {
-        margin-top: -100px;
+        margin-top: -450px;
     }
+
+    
     
 }
+  }
