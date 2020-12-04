@@ -5,6 +5,8 @@
     font-family: arial;
 }
 
+/* Landingpage /*
+
 /* banner */
 
 #Layer_1 {
@@ -259,7 +261,7 @@
     font-size: 18px;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;   
+    margin-left: 10px;   
 }
 
 
@@ -396,32 +398,9 @@
     
 }
 
-/* Dropdowns from main boxes */
-
-.dropdown-first-box {
-    width: auto;
-    max-width: 1000px;
-    height: 600px;
-    display: none;
-    border-left: solid lightgray 1px;
-    border-right: solid lightgray 1px;
-    border-bottom: solid lightgray 1px;
-}
-
-.dropdown-first-box-content {
-    padding: 20px;
-}
-
-.overskrift-i-dropdownbox {
-    text-align: center;
-    margin-top: 30px;
-}
-
-/* Content in chamber one */
 
 
 
-/* Content in chamber zero */
 
 
 
@@ -570,16 +549,7 @@
     background-color: rgb(255, 209, 209);
 }
 
-.showDropdownFirstBox {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    position: absolute;
-    bottom: 65px;
-    cursor: pointer;  
-}
+
 
 /* Second box */
 
@@ -626,7 +596,10 @@
     margin-top: 300px;
 }
 
-/* wix-review */
+
+/* Landing-page done */
+
+/* wix-review start */
 
 
 
@@ -639,6 +612,9 @@
 
 
 @media only screen and (max-width: 1660px) {
+    
+    /* Landing page */
+    
     .flex-container-top {
         margin-left: 200px;
     }
@@ -653,6 +629,9 @@
 }
 
 @media only screen and (max-width: 1538px) {
+
+  /* Landing page */
+
     .flex-container-top {
         margin-left: 100px;
     }
@@ -663,6 +642,9 @@
 }
 
 @media only screen and (max-width: 1435px) {
+
+  /* Landing page */
+
     .flex-container-top {
         margin-left: 40px;
     }
@@ -673,6 +655,9 @@
   }  
 
   @media only screen and (max-width: 1370px) {
+
+  /* Landing page */
+
     .sidething, .flexcontainer, .item1 {
         width: 230px;
     }
@@ -682,6 +667,9 @@
     }
     
   @media only screen and (max-width: 1300px) {
+
+  /* Landing page */
+
     .sidething {
         display: none;
     }
@@ -712,11 +700,14 @@
         margin-right: auto;
     }
   
-  }    
+  }
+  
+  
+
 
   @media only screen and (max-width: 1035px) {
     
-   
+     /* Landing page */
 
     .first-box {
     grid-template-areas: "test test"
@@ -770,16 +761,14 @@
 
 @media only screen and (max-width: 700px) {
     
+  /* Landing page */
+
     * {
         font-size: 15px;
     }
 
     .chamber-one, .chamber-two, .chamber-three, .chamber-four {
         height: 200px;
-    }
-
-    .showDropdownFirstBox {
-        bottom: 40px;
     }
 
     .keyfacts, .fill {
@@ -842,6 +831,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+
+  /* Landing page */
+
     .flex-container-top {
         margin-top: 100px;
     }
