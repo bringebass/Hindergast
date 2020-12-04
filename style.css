@@ -56,8 +56,6 @@
                          "two three";
 }
 
-
-
 .flexbox-uno {
     width: auto;
     display: flex;
@@ -150,6 +148,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
+    bottom: 1000;
 }
 
 .textus {
@@ -161,8 +160,6 @@
     color: rgb(22, 33, 74);
     text-decoration: underline;
 }
-
-
 
 .flexcontainer:hover {
     cursor: pointer;
@@ -314,13 +311,6 @@
     background-color: white;
 }
 
-/* second box */
-
-
-
-/* Chambers in boxes */
-
-
 .chamber-one, .chamber-two, .chamber-three, .chamber-four {
     width: 250px;
     height: 250px;
@@ -341,7 +331,6 @@
     -webkit-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     -moz-box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
     box-shadow: 0px 0px 23px -9px rgba(143,143,143,1);
-
 }
 
 .test {
@@ -358,25 +347,20 @@
     font-weight: bold;
     font-size: 1.2rem;
     border-bottom: rgb(22, 33, 74) 1px solid;
-
-
 }
 
 .chamber-one {
     grid-area: one;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
 .chamber-two {
     grid-area: two;
     align-items: center;
     justify-content: center;
-    position: relative;
-   
+    position: relative; 
 }
 
 .chamber-three {
@@ -385,8 +369,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    
+    position: relative; 
 }
 
 .chamber-four {
@@ -395,14 +378,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    
 }
-
-
-
-
-
-
 
 .box-headline {
     font-size: 1.1rem;    
@@ -446,10 +422,6 @@
 .rango {
     background-color:  rgb(22, 33, 74) ;
 }
-
-
-
-/* Content in chamber two */
 
 .keyfacts {
     font-weight: bold;
@@ -504,29 +476,16 @@
     margin-top: 8px;
 }
 
-/* Content in chamber three */
-
-
 .snippet {
     color: rgb(4, 4, 96);
-   
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
-
-
-/* content in fourth chamber */
-
 
 .fill {
     position: absolute;
     top: 70px;
 }
-
-
-
 
 .buttons-chamber4 {
     text-decoration: none;
@@ -548,10 +507,6 @@
 .buttons-chamber4:hover {
     background-color: rgb(255, 209, 209);
 }
-
-
-
-/* Second box */
 
 .zero{
    
@@ -585,9 +540,6 @@
 
 /* Picture under main boxes */
 
-
-
-
 .section1 {
     display: flex;
     width: 100%;
@@ -596,8 +548,73 @@
     margin-top: 300px;
 }
 
-
 /* Landing-page done */
+/* footer */
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8FF;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 100px;
+    grid-template-areas:     ". gr3 gr3 gr2 gr5 ."
+                             ". gr3 gr3 gr2 gr5 ."
+                             "gr4 gr4 gr4 gr4 gr4 gr4"
+    
+                        }
+    
+    .grid1footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr1; 
+    }
+    
+    .grid2footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr2;  
+    }
+    
+    .grid3footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr3;
+    padding-right: 20px;
+    }
+    
+    .grid4footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr4; 
+    }
+    
+    .grid5footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr5;   
+    }
+    
+    .grid6footer {
+    display: flex;
+    justify-content: center;
+    grid-area: gr6;   
+    }
+    
+    .bokser-i-footer {
+    margin-top: 60px;
+    line-height: 2.5;
+    text-align: justify;
+    }
+    
+    .tres-amigo {
+    width: 80%;
+    margin-top: 70px;
+    line-height: 1.5;
+    }
+
+
 
 /* wix-review start */
 
@@ -699,10 +716,34 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* footer */
+
+    .footer {
+        height: 100%;
+        width: 100%;
+        background-color: #F8F8FF;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto 500px 100px;
+        grid-template-areas:     ". gr3 gr3 gr3 gr3 ."
+                                 ". gr2 gr2 gr5 gr5 ."
+                                 "gr4 gr4 gr4 gr4 gr4 gr4"
+            
+                                }
+    
+    }
+
+
   
   }
   
-  
+  @media all and (max-width: 1122px) {
+    .bokser-i-footer {
+        margin-right: 0px;
+        }
+    }
+
 
 
   @media only screen and (max-width: 1035px) {
@@ -830,6 +871,37 @@
         }
 }
 
+@media all and (max-width: 670px) {
+
+
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto 200px; 
+        grid-template-areas:         
+                                     "gr3"
+                                     "gr2"
+                                     "gr5"
+                                     "gr4";
+           
+        }
+    
+    
+    .grid5footer, .grid2footer {
+        justify-content: start;
+        margin-left: 10%;
+        }
+        
+        
+        .grid4footer {
+            align-self: center;
+        }
+        
+        .helt-nede {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
 @media only screen and (max-width: 400px) {
 
   /* Landing page */
@@ -853,8 +925,7 @@
     .wrapper-around-main-boxes {
         margin-top: -450px;
     }
-
-    
+  
     
 }
-  }
+  
