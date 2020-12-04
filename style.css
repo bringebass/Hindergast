@@ -242,7 +242,7 @@
     font-weight: bold;
     position: fixed;
     background-color: white;
-    margin-top: -70px;
+    top: 0;
     z-index: 1000;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -616,10 +616,48 @@
 
 /* wix-review start */
 
+.bilete {
+    width: 500px;
+    grid-area: en;
+}
 
+.flex-container-1337 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.flex1337 {
+  display: grid;
+  grid-template-columns: 1fr 40px 250px 10px 250px;
+  grid-template-areas: "en . tre . to";
+}
 
+.headline-wix-review {
+    margin-top: 100px;
+    text-align: center;
+}
 
+.stats {
+    width: 250px;
+    height: 510px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: to;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.stats2 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: tre;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* media quieries */
 
