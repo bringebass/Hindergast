@@ -307,6 +307,7 @@
 
 .primero {
     background-color: white;
+    border: blue solid;
 }
 
 .chamber-one, .chamber-two, .chamber-three, .chamber-four {
@@ -417,6 +418,10 @@
     z-index: 1;   
 }
 
+.the-one {
+    background-color: blue;
+}
+
 .rango {
     background-color:  rgb(22, 33, 74) ;
 }
@@ -452,6 +457,11 @@
 .margino3 {
     margin-top: 10px;
     color: red;
+}
+
+.margino4 {
+    margin-top: 10px;
+    color: blue;
 }
 
 .text-container {
@@ -800,7 +810,25 @@
     margin-top: -50px;
     color: white;
     font-weight: bold;
+    -webkit-box-shadow: 8px 10px 13px -7px rgba(163,160,163,1);
+    -moz-box-shadow: 8px 10px 13px -7px rgba(163,160,163,1);
+    box-shadow: 8px 10px 13px -7px rgba(163,160,163,1);
+}
+
+.buttoni:hover {
+    background-color: #f6d6c3;
+}
+
+.text-container-reviews {
     
+    margin-top: 50px;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.bilde-float {
+    float: right;
+    width: 900px;
 }
 
 
