@@ -21,6 +21,12 @@
     border-right: solid lightblue;
 }
 
+.abso {
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(22, 33, 74);
+}
+
 .top-bilde {
     width: 500px;
     border-left: solid lightgray 2px;
@@ -126,8 +132,6 @@
     text-align: center;
     background-color: white;   
 }
-
-
 
 .søster {
     
@@ -306,6 +310,7 @@
     box-shadow: 0px 0px 29px 1px rgba(143,143,143,1);
     position: relative;
     border-radius: 0px;
+    
 }
 
 .primero {
@@ -422,7 +427,7 @@
 }
 
 .the-one {
-    background-color: rgb(22, 33, 74);
+    background-color: #7B51F3;
 }
 
 .rango {
@@ -552,6 +557,21 @@
     margin-bottom: 30px;
 }
 
+.take-it {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #00008B;
+}
+
+.text-mes {
+    margin-top: 20px;
+}
+
+.texe {
+    margin-top: 5px;
+}
+
 /* Toggle classes */
     
 .rotate {
@@ -562,15 +582,85 @@
     display: block;
 }
 
-/* Picture under main boxes */
+.black1 {
+    color: #7B51F3;
+}
 
 .section1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     width: 100%;
-    height: 500px;
-    background-color: #E4EFFF;
-    margin-top: 300px;
+    height: 300px;
+    background-color: white;
+    z-index: -1;
 }
+
+.award {
+    position: absolute;
+    right: 10px;
+    color: blue;
+}
+
+.award2 {
+    position: absolute;
+    right: 10px;
+    color: rgb(4, 4, 96);
+}
+
+.paddy {
+    padding-right: 3px;
+    font-size: 1.7rem;
+}
+
+
+/* Table på landingsside */
+
+.headline5 {
+    text-align: center;
+    color: #00008B;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    }
+
+    .table {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 1200px;
+    height: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-collapse: collapse;  
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+        
+    tr, td, th {
+    border: solid lightgray 1px;    
+    }
+        
+    th, tr, td {
+    font-size: 1rem;
+    }
+        
+    .tablerow {
+    font-size: 1rem;
+    width: 70px;
+    background-color:rgb(243, 122, 51);  
+    }
+
+    .button-table {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    }
+
+/* Table ferdig */
 
 /* Landing-page done */
 /* footer */
@@ -643,7 +733,7 @@
     }
     
     .color2 {
-        background-color: whitesmoke;
+        background-color: #7B51F3;
     }
 
     
@@ -721,8 +811,12 @@
 
 .rating-box1337 {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
+}
+
+.colore {
+    color: #7B51F3;
+    font-weight: bold;
 }
 
 .star-main-container {
@@ -866,17 +960,40 @@
     border-bottom: 1px lightgray solid;
 }
 
+.flex-thingo2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    
+}
+
 .color1 {
     background-color: #f8f8ff;
+}
+
+.color-head {
+    color: rgb(22, 33, 74);
 }
 
 .beholder {
     width: 1060px;
     height: auto;
-    
     display: flex;
     justify-content: space-between;
     color: grey;
+    font-weight: bold;
+}
+
+.beholder2 {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold; 
 }
 
 .flexy-border {
@@ -921,7 +1038,7 @@
 }
 
 .black {
-    color: black;
+    color: white;
 }
 
 .wrapper-1060 {
@@ -946,8 +1063,14 @@
     margin-bottom: 30px;
 }
 
+.wrapper-text-thing {
+    width: 1000px;
+}
 
-
+.wrappituss {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* media quieries */
