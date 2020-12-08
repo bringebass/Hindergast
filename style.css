@@ -672,62 +672,7 @@
 /* Landing-page done */
 /* footer */
 
-.footer {
-    height: 100%;
-    width: 100%;
-    background-color: #F8F8FF;
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px 400px 100px;
-    grid-template-areas:     ". gr3 gr3 gr2 gr5 ."
-                             ". gr3 gr3 gr2 gr5 ."
-                             "gr4 gr4 gr4 gr4 gr4 gr4"
-    
-                        }
-    
-    .grid1footer {
-    display: flex;
-    justify-content: center;
-    grid-area: gr1; 
-    }
-    
-    .grid2footer {
-    display: flex;
-    justify-content: center;
-    grid-area: gr2;  
-    }
-    
-    .grid3footer {
-    display: flex;
-    justify-content: center;
-    grid-area: gr3;
-    padding-right: 20px;
-    }
-    
-    .grid4footer {
-    display: flex;
-    justify-content: center;
-    grid-area: gr4; 
-    }
-    
-    .grid5footer {
-    display: flex;
-    justify-content: center;
-    grid-area: gr5;   
-    }
-    
-    .grid6footer {
-    display: flex;
-    justify-content: center;
-    grid-area: gr6;   
-    }
-    
-    .bokser-i-footer {
-    margin-top: 60px;
-    line-height: 2.5;
-    text-align: justify;
-    }
+/* footer end */
     
     .tres-amigo {
     width: 80%;
@@ -1200,6 +1145,14 @@
         justify-content: start;
         margin-left: 200px;
     }
+
+   .flex-thingo {
+       justify-content: start;
+       padding-left: 200px;
+   }
+
+   
+
     /* review page */
 
     .flex-container-1337 {
@@ -1238,6 +1191,10 @@
         margin-left: 100px;
     }
 
+    .flex-thingo {
+        padding-left: 100px;
+    }
+
     /* review page */
 
     .flex-container-1337 {
@@ -1274,6 +1231,10 @@
         margin-left: 40px;
     }
 
+    .flex-thingo {
+        padding-left: 40px;
+    }
+
      /* review page */
 
      .flex-container-1337 {
@@ -1306,6 +1267,10 @@
         margin-left: 30px;
     }
 
+    .flex-thingo {
+        padding-left: 30px;
+    }
+
       /* review page */
 
     .flex-container-1337 {
@@ -1313,7 +1278,7 @@
     }
 
     .wrappituss {
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
 }
@@ -1365,6 +1330,14 @@
         justify-content: center;
     }
 
+    .wrappituss {
+        margin-left: 0px;
+    }
+   
+    .flex-thingo {
+        justify-content: center;
+    }
+
        /* review page */
 
     .flex-container-1337 {
@@ -1381,29 +1354,10 @@
     }
 
    
-
-    /* footer */
-
-    .footer {
-        height: 100%;
-        width: 100%;
-        background-color: #F8F8FF;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto 500px 100px;
-        grid-template-areas:     ". gr3 gr3 gr3 gr3 ."
-                                 ". gr2 gr2 gr5 gr5 ."
-                                 "gr4 gr4 gr4 gr4 gr4 gr4"
-            
-                                }
-    
-    }
-
+ 
   
   @media all and (max-width: 1122px) {
-    .bokser-i-footer {
-    margin-right: 0px;
-    }
+   
 
     .flex1337 {
         display: grid;
@@ -1441,6 +1395,8 @@
           margin-right: 0;
           padding-right: 0px;
       }
+
+      
 
       /*review site */
 
@@ -1637,34 +1593,9 @@
 }
 
 @media all and (max-width: 670px) {
-
-
-    .footer {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto 200px; 
-        grid-template-areas:         
-                                     "gr3"
-                                     "gr2"
-                                     "gr5"
-                                     "gr4";
-           
-        }
     
     
-    .grid5footer, .grid2footer {
-        justify-content: start;
-        margin-left: 10%;
-        }
-        
-        
-        .grid4footer {
-            align-self: center;
-        }
-        
-        .helt-nede {
-            margin-left: 20px;
-            margin-right: 20px;
-        }
+    
 
         .table {
             width: 90%;
