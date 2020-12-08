@@ -754,7 +754,7 @@
 .headline-wix-review {
     margin-top: 100px;
     text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .stats-hidden {
@@ -1403,6 +1403,9 @@
           width: 740px;
       }
 
+      .boxy2 {
+          border: none;
+      }
 
       .think {
         grid-template-columns: 1fr;
@@ -1503,16 +1506,61 @@
 
 /*review site */  
 
+.stats5 {
+    width: 300px;
+}
+
+.wix-container-2 {
+    height: 250px;
+}
+
+.bilete {
+    width: 300px;
+}
+
+.flex-container-1337 {
+    width: 100%;
+}
+
+.stats2, .stats-hidden, .stats, .stats5 {
+    width: 300px;
+    box-shadow: none;
+    border: solid lightgray 1px ;
+}
+
+.stats-hidden {
+    height: auto;
+}
+
+.stats0 {
+    display: none;
+}
+
+.wix-wax {
+    width: 120px;
+}
+
+.stats5, .wix-container-2 {
+    height: 180px;
+}
+
+.buttoni {
+    margin-top: -25px ;
+}
+
 .flex1337 {
     display: grid;
-    grid-template-columns: 1fr 20px 1fr;
-    grid-template-rows: 300px 250px 20px 1fr;
-    grid-template-areas: "en en en"
-                         "fire . fem" 
-                         ". . ."
-                         "tre . to" 
-                         "syv . to" ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 160px 180px 10px auto 10px;
+    grid-template-areas: "en"
+                         "fem"
+                         ". " 
+                         "tre"
+                         ". "
+                         "to" 
+                         "syv";
   }
+
 
 }
 
@@ -1651,4 +1699,4 @@
   
     
 }
-  
+}
