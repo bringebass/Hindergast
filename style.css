@@ -748,6 +748,7 @@
     align-items: center;
     grid-area: to;
     height: auto;
+    border-right: 1px solid lightgrey;
 }
 
 .size2 {
@@ -983,7 +984,7 @@
 }
 
 .inside-beholder {
-    margin-right: 25px;
+   
     width: 240px;
     font-size: 1rem;
 }
@@ -1402,11 +1403,11 @@
     }
 
     .flex-thingo {
-        padding-left: 40px;
+        padding-left: 30px;
     }
 
     .footer {
-        margin-left: 40px;
+        margin-left: 30px;
     }
 
       /* review page */
@@ -1542,13 +1543,6 @@
 
       .textyz2 {
          width: auto;
-         margin-left: 20px;
-         margin-right: 20px;
-      }
-
-
-      .color-head {
-          text-align: center;
       }
 
       /*review site */
@@ -1628,6 +1622,7 @@
     .color-head {
         margin-top: 20px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
   
@@ -1641,6 +1636,10 @@
         margin-top: 40px;
         margin-right: 20px;
         margin-left: 20px
+    }
+
+    .boxy1 {
+        border-right: none;
     }
   
     .under-main-headline {
