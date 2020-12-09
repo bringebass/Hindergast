@@ -621,6 +621,10 @@
     font-size: 1.7rem;
 }
 
+.colore {
+    margin-right: 20px;
+}
+
 
 /* Table på landingsside */
 
@@ -1550,6 +1554,8 @@
 .stats5 {
     width: 300px;
 }
+
+
 
 .hey {
     width: 300px;
