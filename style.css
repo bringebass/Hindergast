@@ -709,6 +709,17 @@
     width: 800px;
 }
 
+.missioncomplete {
+   width: 1060px;
+   margin: 20px auto 20px;
+}
+
+.howdy {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .numbers {
     font-size: 1.5rem;
     font-weight: bold;
@@ -1249,8 +1260,11 @@
 
     .wrapper-1060 {
         justify-content: start;
+        margin-left: 200px; 
+    }
+
+    .missioncomplete {
         margin-left: 200px;
-       
     }
 
     .first-box {
@@ -1310,6 +1324,10 @@
         margin-left: 100px;  
     }
 
+    .missioncomplete {
+        margin-left: 100px;
+    }
+
     .table {
         margin-left: 100px;
     }
@@ -1348,6 +1366,10 @@
     }
 
     .first-box {
+        margin-left: 40px;
+    }
+
+    .missioncomplete {
         margin-left: 40px;
     }
 
@@ -1402,6 +1424,10 @@
         margin-left: 30px;
     }
 
+    .missioncomplete {
+        margin-left: 30px;
+    }
+
     .flex-thingo {
         padding-left: 30px;
     }
@@ -1446,6 +1472,10 @@
         margin: 0 auto;
     }
   
+    .missioncomplete {
+        margin: 0 auto;
+    }
+
     .flexcontainer {
         display: none;
     }
@@ -1550,6 +1580,10 @@
       .textyz {
           width: 740px;
       }
+
+      .missioncomplete {
+        width: 740px;
+    }
 
       .boxy2 {
           border: none;
@@ -1695,7 +1729,9 @@
     width: 300px;
 }
 
-
+.missioncomplete {
+    width: 300px;
+}
 
 .hey {
     width: 300px;
