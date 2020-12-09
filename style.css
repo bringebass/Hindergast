@@ -968,6 +968,13 @@
     width: 100%;
     border-top: 1px lightgray solid;
     border-bottom: 1px lightgray solid;
+  
+}
+
+.inside-beholder {
+    margin-right: 25px;
+    width: 240px;
+    font-size: 1rem;
 }
 
 .flex-thingo2 {
@@ -995,6 +1002,7 @@
     justify-content: space-between;
     color: grey;
     font-weight: bold;
+
 }
 
 .beholder2 {
@@ -1003,7 +1011,8 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    font-weight: bold; 
+    font-weight: bold;
+   
 }
 
 .flexy-border {
@@ -1268,7 +1277,7 @@
     }
 
     .flex-thingo {
-        padding-left: 30px;
+        padding-left: 40px;
     }
 
       /* review page */
@@ -1297,6 +1306,10 @@
 
     .first-box {
         margin-left: 50px;
+    }
+
+    .headline5 {
+        margin-bottom: 40px;
     }
 
     .table {
@@ -1395,7 +1408,9 @@
       }
 
 
-      
+      .color-head {
+          text-align: center;
+      }
 
       /*review site */
 
@@ -1459,6 +1474,28 @@
         width: auto;
     }
 
+    .wrapper-text-thing {
+        text-align: center ;
+    }
+
+    .texe, .textyz2 {
+        width: 80%;
+       margin: 0 auto;
+    }
+
+    .color-head {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .boxy1 {
+        margin-top: 20px;
+    }
+
+    .text-mes {
+        margin-bottom: 20px;
+        }
+
     .main-headline {
         text-align: center;
         margin-top: 40px;
@@ -1493,6 +1530,10 @@
       padding: 0px;
      }
 
+     .flex-thingo {
+         display: none;
+     }
+
  /*review site */
 
  
@@ -1507,6 +1548,15 @@
 /*review site */  
 
 .stats5 {
+    width: 300px;
+}
+
+.hey {
+    width: 300px;
+}
+
+.textyz {
+    padding-right: 0px;
     width: 300px;
 }
 
@@ -1578,6 +1628,16 @@
     }
 
     .keyfacts, .fill {
+        display: none;
+    }
+
+    .abso {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .colore {
         display: none;
     }
     
@@ -1666,7 +1726,7 @@
 @media all and (max-width: 670px) {
     
     
-    
+
 
         .table {
             width: 90%;
@@ -1691,10 +1751,6 @@
 
     .flexbox-uno {
         margin-top: -100px;
-    }
-
-    .wrapper-around-main-boxes {
-        margin-top: -450px;
     }
   
     
