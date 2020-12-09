@@ -21,6 +21,14 @@
     border-right: solid lightblue;
 }
 
+.boxy86 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+    color: black;
+}
+
 .abso {
     font-weight: bold;
     font-size: 3rem;
